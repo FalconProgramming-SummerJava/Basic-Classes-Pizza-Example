@@ -4,7 +4,7 @@ public class Pizza {
 	public String[] toppings = new String[5];
 	
 	// This is the Constructor, called whenever an object is made of this class
-	// The constructor expects an array of strings to be passed to it.
+	// This constructor expects an array of strings to be passed to it.
 	public Pizza(String[] toppingNames) {
 		// take the toppings the user gave us and save it to our new object
 		toppings = toppingNames;
